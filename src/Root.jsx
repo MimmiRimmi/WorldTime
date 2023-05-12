@@ -3,12 +3,12 @@ import { Outlet, Link } from "react-router-dom";
 export default function Root() {
   return (
     <div>
-      <nav className="flex justify-between py-3 px-10 items-center shadow-lg shadow-slate-500/50">
-        <h1 className="text-2xl font-extrabold text-slate-700 font-display">
+      <nav className="flex justify-between px-5 py-3 md:px-10 items-center shadow-lg shadow-slate-500/50">
+        <h1 className="text-lg md:text-2xl font-extrabold text-slate-700 font-display">
           World Time
         </h1>
 
-        <ul className="flex space-x-8 text-slate-700 font-extrabold font-display">
+        <ul className="text-sm md:text-base flex space-x-8 text-slate-700 font-extrabold font-display">
           <li>
             <Link to={"/"}>Home</Link>
           </li>

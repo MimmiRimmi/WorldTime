@@ -35,6 +35,9 @@ export default function SingleClock() {
         <div className="text-3xl md:text-5xl text-gray-900 font-semibold">
           {time}
         </div>
+        <div className=" text-gray-600 underline hover:text-gray-400">
+          <Link to={"/"}>Back to home</Link>
+        </div>
       </div>
     </div>
   );
